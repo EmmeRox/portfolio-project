@@ -1,3 +1,8 @@
+/* font-family: "Quicksand", sans-serif;
+font-family: "Signika", sans-serif; */
+
 h1 {
   color: darkblue;
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
 }
