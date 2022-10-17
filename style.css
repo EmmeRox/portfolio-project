@@ -18,13 +18,12 @@ h1 {
   color: #685454;
   font-family: var(--heading-font);
   font-weight: 600;
-  padding: 20px 0;
+  padding: 5px 0;
   font-size: 60px;
 }
 
 h2 {
   font-size: 22px;
-  padding-bottom: 50px;
 }
 
 .top-page {
