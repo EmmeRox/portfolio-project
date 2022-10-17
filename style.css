@@ -43,3 +43,9 @@ h2 {
   border: 2px solid var(--bold-color);
   color: var(--med-color);
 }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
