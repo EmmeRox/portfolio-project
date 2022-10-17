@@ -1,8 +1,39 @@
 /* font-family: "Quicksand", sans-serif;
 font-family: "Signika", sans-serif; */
+:root {
+  --heading-font: "Signika", sans-serif;
+  --sub-font: "Quicksand", sans-serif;
+  --med-color: #f1e0e0;
+  --bold-color: #ea8a8a;
+  --bg-color: #f2f2f2;
+}
+
+body {
+  font-family: var(--sub-font);
+  font-weight: 400;
+  background: var(--bg-color);
+}
 
 h1 {
-  color: darkblue;
-  font-family: "Signika", sans-serif;
+  color: #685454;
+  font-family: var(--heading-font);
   font-weight: 600;
+  padding: 20px 0;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+.top-page {
+  padding: 80px 0;
+  text-align: center;
+  background: var(--med-color);
+}
+
+.top-page p {
+  padding-top: 20px;
+  font-size: 20px;
 }
