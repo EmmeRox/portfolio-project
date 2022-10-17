@@ -40,12 +40,41 @@ h2 {
 
 .contact-btn {
   background-color: var(--dk-color);
-  border: 2px solid var(--bold-color);
   color: var(--med-color);
+}
+
+.contact-btn:hover {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bold-color);
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.my-work {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mid-page {
+  text-align: center;
+}
+
+.weather-btn {
+  background-color: var(--bold-color);
+}
+
+.weather-btn:hover {
+  background-color: var(--med-color);
+  border: 1px solid var(--bold-color);
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
 }
