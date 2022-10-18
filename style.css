@@ -48,7 +48,7 @@ h2 {
   border: 1px solid var(--bold-color);
 }
 
-.intro {
+.center-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
