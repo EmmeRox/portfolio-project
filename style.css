@@ -74,21 +74,25 @@ h2 {
   margin: 0 10px;
 }
 
-.weather-btn {
+.button-work {
+  text-align: center;
+}
+
+.work-btn {
   background-color: var(--bold-color);
 }
 
-.weather-btn:hover {
+.work-btn:hover {
   background-color: var(--med-color);
   border: 1px solid var(--bold-color);
 }
 
-.info-btn {
+.work-btn-2 {
   background-color: var(--med-color);
   border: 1px solid var(--bold-color);
 }
 
-.info-btn:hover {
+.work-btn-2:hover {
   background-color: var(--bold-color);
   border: 1px solid var(--med-color);
 }
