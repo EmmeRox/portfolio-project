@@ -97,7 +97,21 @@ h2 {
   font-size: 15px;
 }
 
-.me-work {
+.link {
+  color: var(--dk-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: var(--heading-font);
+}
+
+.link:hover {
+  color: var(--bold-color);
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 25px;
+  color: var(--bold-color);
 }
 
 @media (max-width: 992px) {
