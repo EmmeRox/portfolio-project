@@ -27,6 +27,12 @@ h2 {
   font-size: 22px;
 }
 
+h4 {
+  font-family: var(--heading-font);
+  font-size: 20px;
+  text-align: center;
+}
+
 .top-page {
   padding: 80px 0;
   text-align: center;
