@@ -36,7 +36,11 @@ h2 {
 .top-page p {
   padding-top: 5px;
   font-size: 20px;
-  margin: 0;
+}
+
+.top-page-about {
+  padding: 90px 30px;
+  text-align: center;
 }
 
 .contact-btn {
@@ -89,8 +93,19 @@ h2 {
   border: 1px solid var(--med-color);
 }
 
+.me-info {
+  font-size: 15px;
+}
+
+.me-work {
+  
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 40px;
+  }
+  h2 {
+    font-size: 18px;
   }
 }
