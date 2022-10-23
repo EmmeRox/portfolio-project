@@ -130,6 +130,19 @@ h4 {
   text-decoration: underline;
 }
 
+.active {
+  color: var(--bold-color) !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: var(--bold-color);
+}
+
+nav li {
+  padding: 5px;
+}
+
 .icon {
   font-size: 35px;
   color: var(--bold-color);
