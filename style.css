@@ -85,6 +85,10 @@ h4 {
   padding-left: 0;
 }
 
+.description {
+  font-size: 0.7em;
+}
+
 .my-work {
   text-align: center;
   font-size: 30px;
