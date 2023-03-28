@@ -58,7 +58,7 @@ ul {
 }
 
 .foothero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("/images/sand.png");
   background-size: cover;
   background-position: center;
@@ -93,7 +93,7 @@ ul {
 }
 
 .top-page {
-  padding: 80px 0;
+  padding: 70px 0 0 0;
   text-align: center;
   min-width: 100%;
   background: var(--med-color);
@@ -257,6 +257,10 @@ nav li {
   border: 1px solid var(--bold-color);
 }
 
+.sign {
+  color: white;
+}
+
 .icon-footer {
   color: var(--bold-color);
   padding: 15px;
@@ -307,6 +311,13 @@ nav li {
   .first-project {
     margin: 0;
     padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .icon-footer {
+    margin: 0;
+    padding: 15px;
   }
 }
 
